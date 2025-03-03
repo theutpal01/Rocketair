@@ -57,8 +57,9 @@ const Footer = () => {
 			</div>
 			<div className="flex flex-col *:px-8 lg:border-l lg:border-white">
 				{links.map((link, index) => (
-					<Link className="border-b border-white hover:bg-white hover:text-black duration-200 ease-in" key={index} href={link.href}>
-						<h3 className="text-3xl py-6">{link.title}</h3>
+					<Link className="relative group border-b *:duration-300 *:ease-out border-white" key={index} href={link.href}>
+						<h3 className="text-3xl py-6 group-hover:text-black">{link.title}</h3>
+						<div className="absolute bg-white top-1/2 left-1/2 -translate-1/2 w-full h-0 group-hover:h-full -z-10"></div>
 					</Link>
 				))}
 				<div className="flex justify-between items-center">
