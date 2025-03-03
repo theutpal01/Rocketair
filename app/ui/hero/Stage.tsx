@@ -18,8 +18,8 @@ const Stage = () => {
 			">TM</span></h1></div>
 			</div>
 			<div className="flex justify-end font-semibold">
-				<div className="text-[10px] flex space-x-2">
-					<p>CHECK OUT THE HYPE</p>
+				<div className="flex space-x-2">
+					<p className="font-mono text-xs">CHECK OUT THE HYPE</p>
 					<FaArrowDown className="animate-bounce size-3" />
 				</div>
 			</div>

@@ -3,4 +3,28 @@
 @theme {
 	--color-primary: #feff00;
 	--color-secondary: #dbff00;
+	--font-primary: 'AeonikProBold', sans-serif;
+	--font-secondary: 'AeonikPro', sans-serif;
+	
 }
+
+@font-face {
+	font-family: AeonikPro;
+	font-style: normal;
+	font-weight: 400;
+	src: url("/fonts/AeonikPro-Regular.otf") format("opentype"); 
+}
+
+@font-face {
+	font-family: AeonikProBold;
+	font-style: bold;
+	font-weight: 700;
+	src: url("/fonts/AeonikPro-Bold.otf") format("opentype");
+}
+
+/* @font-face {
+	font-family: Galyon;
+	font-style: normal;
+	font-weight: 400;
+	src: url("");
+} */
