@@ -1,4 +1,6 @@
-const PrimaryBtn = ({ className, text, theme = "primary", size = "md" }: { className?: string, text: string, theme: "primary" | "secondary" | "ghost", size: "sm" | "md" | "lg" }) => {
+import React from "react"
+
+const PrimaryBtn = ({ className, children, theme = "primary", size = "md" }: { className?: string, children: string | React.ReactNode, theme: "primary" | "secondary" | "ghost", size: "sm" | "md" | "lg" }) => {
 
 	const themes = {
 		primary: "bg-primary text-black hover:bg-transparent hover:text-white",
@@ -14,7 +16,7 @@ const PrimaryBtn = ({ className, text, theme = "primary", size = "md" }: { class
 
 
 	return (
-		<button className={`${className} ${themes[theme]} cursor-pointer text-black px-4 border border-white rounded-full min-w-32 ${sizes[size]} duration-300 ease-in-out`} type="button">{text}</button>
+		<button className={`${className} ${themes[theme]} flex justify-center items-center cursor-pointer text-black px-4 border border-white rounded-full min-w-32 ${sizes[size]} duration-300 ease-in-out`} type="button">{children}</button>
 	)
 }
 
