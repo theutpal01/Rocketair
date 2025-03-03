@@ -38,7 +38,7 @@ This project is a **frontend challenge** where I replicate a selected page from 
 - ✅ **Optimized for Performance**: Using Next.js optimizations.
 - ✅ **SEO-Friendly**: Server-side rendering for better SEO.
 - ✅ **Smooth Navigation**: Implemented via Next.js routing.
-<!-- - ✅ **Deployed on Vercel**. -->
+- ✅ **Deployed on Vercel**.
 
 ---
 
@@ -67,11 +67,11 @@ Now, open [**http://localhost:3000**](http://localhost:3000) to see the project.
 
 ---
 
-<!-- ## 🌐 Deployment -->
+## 🌐 Deployment
 
 This project is deployed on **Vercel**.
 
-[Live Demo](https://rocket-air.vercel.app/) 🔗
+[Live Demo](https://rocketair.vercel.app/) 🔗
 
 ---
 

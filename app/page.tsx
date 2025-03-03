@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from '@/app/ui/layouts/Navbar'
 
 const Page = () => {
 	return (
-		<div>Home Page</div>
+		<div>
+			<Navbar />
+		</div>
 	)
 }
 
