@@ -1,12 +1,10 @@
 import React from 'react'
-import Navbar from '@/app/ui/layouts/Navbar'
-import Footer from './ui/layouts/Footer'
+import Hero from './ui/hero/Hero'
 
 const Page = () => {
 	return (
-		<div>
-			<Navbar />
-			<Footer />
+		<div className=''>
+			<Hero />
 		</div>
 	)
 }

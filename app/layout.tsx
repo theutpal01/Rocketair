@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "@/app/ui/globals.css";
+import Navbar from "./ui/layouts/Navbar";
+import Footer from "./ui/layouts/Footer";
 
 export const metadata: Metadata = {
 	title: "Rocketair",
@@ -19,7 +21,9 @@ export default function RootLayout({
 			<body
 				className={`antialiased bg-black`}
 			>
+				<Navbar />
 				{children}
+				<Footer />
 			</body>
 		</html>
 	);
