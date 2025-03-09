@@ -13,6 +13,7 @@ export function useScroll() {
 		if (typeof document !== "undefined") {
 
 			const listener = (e: Event) => {
+				e.preventDefault();
 				setBodyOffset(document.body.getBoundingClientRect());
 				setScrollY(-bodyOffset.top);
 				setScrollX(bodyOffset.left);
