@@ -51,7 +51,7 @@ const Footer = () => {
 
 					<form action="" className="w-full space-y-6 flex flex-col items-center">
 						<Field type="email" name="email" placeholder="Enter your email" />
-						<PrimaryBtn theme="ghost" children="Subscribe" size="lg" />
+						<PrimaryBtn theme="ghost" size="lg">Subscribe</PrimaryBtn>
 					</form>
 				</div>
 			</div>
@@ -64,10 +64,10 @@ const Footer = () => {
 				))}
 				<div className="flex justify-between items-center">
 					<div className="flex space-x-6 py-6">
-						<PrimaryBtn className="!min-w-0 rounded-full size-11 !p-0" theme="ghost" children={<FaTwitter className="size-5" />} size="md" />
-						<PrimaryBtn className="!min-w-0 rounded-full size-11 !p-0" theme="ghost" children={<FaLinkedinIn className="size-5" />} size="md" />
-						<PrimaryBtn className="!min-w-0 rounded-full size-11 !p-0" theme="ghost" children={<FaYoutube className="size-5" />} size="md" />
-						<PrimaryBtn className="!min-w-0 rounded-full size-11 !p-0" theme="ghost" children={<AiFillInstagram className="size-5" />} size="md" />
+						<PrimaryBtn className="!min-w-0 rounded-full size-11 !p-0" theme="ghost" size="md"><FaTwitter className="size-5" /></PrimaryBtn>
+						<PrimaryBtn className="!min-w-0 rounded-full size-11 !p-0" theme="ghost" size="md"><FaLinkedinIn className="size-5" /></PrimaryBtn>
+						<PrimaryBtn className="!min-w-0 rounded-full size-11 !p-0" theme="ghost" size="md"><FaYoutube className="size-5" /></PrimaryBtn>
+						<PrimaryBtn className="!min-w-0 rounded-full size-11 !p-0" theme="ghost" size="md"><AiFillInstagram className="size-5" /></PrimaryBtn>
 					</div>
 					<Link className="text-gray-500 hover:text-gray-400" href="/privacy" target="_blank">Privacy Policy</Link>
 				</div>
