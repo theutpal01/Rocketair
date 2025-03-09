@@ -16,7 +16,7 @@ const Promote = () => {
 				</div>
 				<div className="flex flex-col md:flex-row md:items-center justify-between">
 					<h3 className="tracking-tight leading-[20vw]">DESIGN</h3>
-					<PrimaryBtn className="font-medium w-fit self-center" theme='ghost' size='lg' children='Get to know us' />
+					<PrimaryBtn className="font-medium w-fit self-center" theme='ghost' size='lg'>Get to know us</PrimaryBtn>
 				</div>
 			</div>
 		</div>
