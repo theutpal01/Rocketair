@@ -72,7 +72,7 @@ const Navbar = () => {
 				<div className='relative overflow-hidden w-full font-bold'>
 					<Link href='/' className='flex space-x-3 text-white font-normal tracking-widest'>
 						<Image className='mix-blend-difference' src='/logo.svg' alt="RocketAir Logo" width={30} height={30} />
-						<h1  className={`absolute left-12 -translate-y-1/2 ${show ? 'top-1/2' : 'top-20'} duration-300 top-0 text-2xl lg:text-4xl`}>RocketAir</h1>
+						<h1 className={`absolute left-12 -translate-y-1/2 ${show ? 'top-1/2' : 'top-20'} duration-300 top-0 text-2xl lg:text-4xl`}>RocketAir</h1>
 					</Link>
 				</div>
 				<div className='flex space-x-4 sm:space-x-6 md:space-x-8 lg:space-x-12'>
@@ -90,13 +90,13 @@ const Navbar = () => {
 				</div>
 			</div>
 			<div className={`flex flex-col ${show ? "h-full" : "h-0"} absolute top-20 bg-black z-50 w-full text-white`}>
-				<div className={`${show ? 'w-full duration-1000' : 'w-0'} h-[1px] bg-white`}></div>
+				<div className={`${show ? 'w-full' : 'w-0'} duration-1000 h-[1px] bg-white`}></div>
 				<div className='flex w-full h-full'>
 					<div className={`w-2/5 max-h-[90vh] relative ${show ? 'top-0' : 'top-full'} duration-500`}>
-						<div className='flex flex-col py-6 *:px-8 h-full absolute overflow-y-auto'>
-							<NavCard image="/navcards/1.jpg" heading="NewLimit" body="envisioning a limitless brand for a not-too-distant future" />
-							<NavCard image="/navcards/2.jpg" heading="NewLimit" body="envisioning a limitless brand for a not-too-distant future" />
-							<NavCard image="/navcards/3.jpg" heading="NewLimit" body="envisioning a limitless brand for a not-too-distant future" />
+						<div className='flex flex-col w-full py-6 *:px-8 h-full absolute overflow-y-auto'>
+							<NavCard image="/navcards/1.jpg" heading="NewLimit" body="envisioning a limitless brand for a not-too-distant future" clickFn={() => { }} />
+							<NavCard image="/navcards/2.jpg" heading="NewLimit" body="envisioning a limitless brand for a not-too-distant future" clickFn={() => { }} />
+							<NavCard image="/navcards/3.jpg" heading="NewLimit" body="envisioning a limitless brand for a not-too-distant future" clickFn={() => { }} />
 						</div>
 					</div>
 					<div className='w-3/5 flex flex-col lg:border-l max-h-[90vh] lg:border-white'>

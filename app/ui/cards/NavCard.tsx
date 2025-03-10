@@ -1,10 +1,11 @@
+import Image from 'next/image'
 import React from 'react'
 
 const NavCard = ({ image, heading, body, clickFn }: { image: string, heading: string, body: string, clickFn?: () => (void) }) => {
 	return (
-		<div className='p-6 relative group cursor-pointer'>
+		<div className='p-6 relative group w-full cursor-pointer' onClick={clickFn}>
 			<div className="relative w-full group overflow-hidden">
-				<img src={image} alt="card" className="group-hover:scale-105 duration-200 ease-in object-cover w-full aspect-square" />
+				<Image src={image} alt="card" className="group-hover:scale-105 duration-200 ease-in object-cover aspect-square w-full" width={100} height={120}/>
 			</div>
 			<div className="py-4">
 				<h2 className="text-xl font-semibold font-primary">{heading}</h2>
