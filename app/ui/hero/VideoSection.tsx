@@ -63,10 +63,10 @@ const VideoSection = () => {
 					<Video width={1280} height={720} className="w-screen aspect-video" sources={heroVids} loop={true} autoplay={true} muted={true} />
 					:
 					<iframe allow='autoplay' width={1280} height={720} className='aspect-video w-screen h-full pointer-events-none'
-						src="https://player.vimeo.com/video/739677535?h=5a8ef33a1a&badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&autopause=0"
+						src="https://player.vimeo.com/video/739677535?h=5a8ef3k3a1a&badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&autopause=0"
 						allowFullScreen title='RocketAir Design Reel' />
 				}
-				<div id='circle' className={`flex opacity-40 md:opacity-0 duration-75 absolute justify-center items-center size-16 sm:size-36 text-white bg-gray-900 left-1/2 top-1/2 -translate-1/2 rounded-full pointer-events-none group-hover:opacity-80 group-active:scale-90 group-active:bg-gray-800 transition-transform`}>
+				<div id='circle' className={`flex opacity-40 md:opacity-0 duration-[.08s] absolute justify-center items-center size-16 sm:size-28 text-white bg-gray-900 left-1/2 top-1/2 -translate-1/2 rounded-full pointer-events-none group-hover:opacity-80 group-active:scale-90 group-active:bg-gray-800 transition-all`}>
 					{play ? <CgClose className='size-6' /> : <p>Play</p>}
 				</div>
 			</div>
